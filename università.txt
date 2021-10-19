@@ -8,7 +8,7 @@ tipo: -string -VARCHAR(30)
 
 Nome: nome Corsi di Laurea
 id -intero -PRIMARY_KEY
-numero_Corsi_Laurea -intero -TINYINT
+
 nome_Corsi_Laurea -string -VARCHAR(30)
 
 
