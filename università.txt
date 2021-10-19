@@ -1,0 +1,43 @@
+universita
+
+nome: dipartimenti
+
+id - intero -PRIMARY_KEY
+nome_Dipartimnto -string -NO NULL
+tipo: -string -VARCHAR(30)
+
+Nome: nome Corsi di Laurea
+id -intero -PRIMARY_KEY
+numero_Corsi_Laurea -intero -TINYINT
+nome_Corsi_Laurea -string -VARCHAR(30)
+
+
+nome: Nome Corsi
+id -intero -PRIMARY_KEY
+nome_Corsi -string -VARCHAR(30)
+numer_Materie -intero -TINYINT
+numero_insegnati -intero -TINYINT
+numero_appelli -intero -TINYINT
+
+nome: insegnati 
+id -intero -PRIMARY_KEY
+nome -string -VARCHAR(30)
+cognome -string -VARCHAR(30)
+corso -string -VARCHAR(60)
+
+
+nome: Appelli
+id -intero -PRIMARY_KEY
+nome_materia -string -VARCHAR(30)
+nome_insegnate -string -VARCHAR(30)
+
+nome: Studenti
+id -intero -PRIMARY_KEY
+nome -string -VARCHAR(30)
+cognome -string -VARCHAR(30)
+corso -string -VARCHAR(30)
+
+nome: Voti
+id -intero -PRIMARY_KEY
+nome_materia -string -VARCHAR(30)
+voto -intero -TINYINT
